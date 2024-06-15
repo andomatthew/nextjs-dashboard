@@ -24,6 +24,7 @@ specifiers:
   react-dom: 19.0.0-rc-6230622a1a-20240610
   tailwindcss: 3.3.3
   typescript: 5.2.2
+  use-debounce: ^10.0.1
   zod: ^3.22.2
 
 dependencies:
@@ -40,6 +41,7 @@ dependencies:
   react-dom: 19.0.0-rc-6230622a1a-20240610_772b21ca8eeaf29c1197b81c80de70f8
   tailwindcss: 3.3.3
   typescript: 5.2.2
+  use-debounce: 10.0.1_772b21ca8eeaf29c1197b81c80de70f8
   zod: 3.23.8
 
 devDependencies:
@@ -4315,6 +4317,15 @@ packages:
     dependencies:
       punycode: 2.3.1
     dev: true
+
+  /use-debounce/10.0.1_772b21ca8eeaf29c1197b81c80de70f8:
+    resolution: {integrity: sha512-0uUXjOfm44e6z4LZ/woZvkM8FwV1wiuoB6xnrrOmeAEjRDDzTLQNRFtYHvqUsJdrz1X37j0rVGIVp144GLHGKg==}
+    engines: {node: '>= 16.0.0'}
+    peerDependencies:
+      react: '>=16.8.0'
+    dependencies:
+      react: 19.0.0-rc-6230622a1a-20240610
+    dev: false
 
   /utf-8-validate/6.0.3:
     resolution: {integrity: sha512-uIuGf9TWQ/y+0Lp+KGZCMuJWc3N9BHA+l/UmHd/oUHwJJDeysyTRxNQVkbzsIWfGFbRe3OcgML/i0mvVRPOyDA==}
